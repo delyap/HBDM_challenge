@@ -1,5 +1,6 @@
 """
-    API Read of
+    Code Aim: Pull Data, Compute Mean-Variance Optimization
+    Status: In progress
 
     Create a vector of weights for the portfolio using mean-variance portfolio optimization. Using the
     conntracts available on HBDM from 2019-11-01T05:00:00+00:00 to 2019-
