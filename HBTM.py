@@ -11,10 +11,8 @@
 
 # Solve 'NameError: name 'requests' is not defined' by installing request module with "sudo apt-get install python3-requests"
 import requests
-#import time
 
-# 请求行数据， Kline data
-
+# Kline data (candle)
 url = 'https://api.huobi.br.com/market/history/kline?period=60min&size=900&symbol=btcusdt'
 resp = requests.get(url)
 print(resp)
